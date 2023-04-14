@@ -28,7 +28,8 @@ Napi::Value Check(const Napi::CallbackInfo& info)
 
     Napi::Env env = info.Env();
 
-    if (info.Length() != 1) {
+    if (info.Length() != 1)
+    {
         Napi::TypeError::New(env, "Wrong number of arguments")
             .ThrowAsJavaScriptException();
 
