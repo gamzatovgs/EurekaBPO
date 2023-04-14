@@ -1,0 +1,15 @@
+{
+  "name": "Check User",
+  "version": "0.1.0",
+  "description": "NodeJS addon for checking the presence of a user in the list of Windows users",
+  "main": "checkuser.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.6",
+    "node-addon-api": "^1.0.0",
+    "nodemon": "^2.0.22"
+  },
+  "gypfile": true
+}
